@@ -1,18 +1,26 @@
-# Watermarkws Tap
+# Watermark Homebrew tap
 
-## How do I install these formulae?
+Homebrew formulae for [Watermark](https://watermark.ws).
 
-`brew install watermarkws/tap/<formula>`
+## Install the CLI
 
-Or `brew tap watermarkws/tap` and then `brew install <formula>`.
+```sh
+brew install watermarkws/tap/watermark
+```
 
-Or, in a `brew bundle` `Brewfile`:
+Or tap once, then use the short name:
+
+```sh
+brew tap watermarkws/tap
+brew install watermark
+```
+
+In a `Brewfile`:
 
 ```ruby
 tap "watermarkws/tap"
-brew "<formula>"
+brew "watermark"
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+The CLI's guide is at [api.watermark.ws/docs/cli](https://api.watermark.ws/docs/cli)
+and its source at [watermarkws/watermark-cli](https://github.com/watermarkws/watermark-cli).
