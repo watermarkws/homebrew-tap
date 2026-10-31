@@ -1,8 +1,8 @@
 class Watermark < Formula
   desc "Command-line client for the Watermark image, video and PDF API"
   homepage "https://api.watermark.ws/docs/cli"
-  url "https://registry.npmjs.org/@watermarkws/cli/-/cli-0.1.1.tgz"
-  sha256 "b5a81c554f099ddd7c798598944078cedf13be28b2c0c8769fa7ea0251db2fe2"
+  url "https://registry.npmjs.org/@watermarkws/cli/-/cli-0.1.2.tgz"
+  sha256 "323dad3696627a21b088c5da624899362afa73a34481b515e540bc5e4ffb44a7"
   license "MIT"
 
   bottle do
