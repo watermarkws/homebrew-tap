@@ -6,9 +6,9 @@ class Watermark < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/watermarkws/homebrew-tap/releases/download/watermark-0.1.2"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "ac7664b205f56ac8a7c5875f0ddb0ddcf580b194824f8a292c304eafb7c098b1"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "adc5c0ad5765f465461c57bd47cbbdd345fef50111fc83f16ab2a32ddeb26a98"
+    root_url "https://github.com/watermarkws/homebrew-tap/releases/download/watermark-0.1.3"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "4164161889351e263e8ba0457d4522d039999c38f569030a67f0a40fbfac0207"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "c40b47aa16ab93af5979bdd5b7a88db40fc31bc1f9811469590c872cc9541b5c"
   end
 
   depends_on "node"
